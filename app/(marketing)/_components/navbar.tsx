@@ -2,7 +2,7 @@
 
 import { useConvexAuth } from "convex/react";
 import { SignInButton, UserButton } from "@clerk/clerk-react";
-import { Link } from "lucide-react";
+import Link from "next/link";
 
 import { useScrollTop } from "@/hooks/use-scroll-top";
 import { ModeToggle } from "@/components/mode-toggle";
@@ -44,9 +44,7 @@ export const Navbar = () => {
                 {isAuthenticated && !isLoading && (
                     <>
                         <Button variant="ghost" size="sm" asChild>
-                            <Link href="/documents">
-                                Enter Jotion
-                            </Link>
+                            <Link href="/documents">Enter Jotion</Link>
                         </Button>
                         <UserButton
                             afterSignOutUrl="/"
