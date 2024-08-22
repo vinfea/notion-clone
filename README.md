@@ -1,2 +1,2 @@
 # Deployment at:
-[Deployed using Vercel](jotion-vinfea.vercel.app)
+[Deployed using Vercel](https://jotion-vinfea.vercel.app)
